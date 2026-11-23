@@ -1,4 +1,5 @@
 -- Importa este archivo en phpMyAdmin. MySQL 8 / MariaDB 10.4+.
+-- Define la estructura inicial, los roles y los datos de muestra del sistema.
 CREATE DATABASE IF NOT EXISTS pizzeria34 CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE pizzeria34;
 
@@ -71,3 +72,4 @@ INSERT INTO productos(nombre,descripcion,precio,stock,categoria) VALUES
 ('Pepperoni','Mozzarella y pepperoni crocante.',9.00,25,'Pizza'),
 ('Cuatro quesos','Mozzarella, cheddar, parmesano y queso azul.',11.50,18,'Pizza'),
 ('Limonada','Bebida fría de limón natural.',2.50,40,'Bebida');
+
