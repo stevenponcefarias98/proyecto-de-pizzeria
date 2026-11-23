@@ -1,6 +1,7 @@
 <?php
 declare(strict_types=1);
 
+// Gestiona productos, inventario, clientes, personal, gastos y estados de pedidos.
 function products_page(): void
 {
     require_role('Administrador');
