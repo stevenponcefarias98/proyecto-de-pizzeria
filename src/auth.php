@@ -1,6 +1,7 @@
 <?php
 declare(strict_types=1);
 
+// Contiene el inicio de sesión, el registro de clientes y la salida segura de la cuenta.
 function login_page(): void
 {
     if (user()) go('pedidos');
