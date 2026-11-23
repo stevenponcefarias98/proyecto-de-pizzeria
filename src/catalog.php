@@ -1,6 +1,7 @@
 <?php
 declare(strict_types=1);
 
+// Presenta la página pública de inicio y el catálogo disponible para los clientes.
 function home_page(): void
 {
     page('Pizza recién hecha', function () { ?>
