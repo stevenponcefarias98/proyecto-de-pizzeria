@@ -1,6 +1,7 @@
 <?php
 declare(strict_types=1);
 
+// Gestiona la creación, consulta, avance y cancelación de pedidos con control de stock.
 function orders_page(): void
 {
     require_role();
